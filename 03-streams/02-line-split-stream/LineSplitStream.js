@@ -22,7 +22,6 @@ class LineSplitStream extends stream.Transform {
     }
 
     callback();
-
   }
 
   _flush(callback) {
